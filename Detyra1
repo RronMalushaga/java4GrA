@@ -1,0 +1,7 @@
+ const aktiviteti=18;
+ const projekti=24;
+ const provimi =43;
+ let totali=aktiviteti + projekti + provimi;
+ let perqindja=totali/100;
+ console.log(totali);
+ console.log(perqindja);
