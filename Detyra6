@@ -1,0 +1,8 @@
+let depo = 120;
+console.log("Gjendja startuse e njesive:" + depo);
+depo-=18;
+depo-=27;
+console.log("Gjenda pas disa shitjeve:" + depo);
+depo +=35;
+let vleraperfundimtare=depo*6.75;
+console.log("Vlera perfundimtare nese qdo njesi eshte e barabart me 6.75:" + vleraperfundimtare);
