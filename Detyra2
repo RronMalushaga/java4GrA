@@ -1,0 +1,10 @@
+let akomodimi =96;
+let transport=42;
+let ushqim=57;
+let totali=akomodimi + transport + ushqim;
+let pjesa=totali/3;
+let pjesambetur=80-pjesa;
+console.log("Totali:" + toatli);
+console.log("Pjesa e secilit person:" + pjesa);
+console.log("Pjesa e mbetur nga buxheti :" + pjesambetur);
+
