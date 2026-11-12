@@ -1,0 +1,11 @@
+let produkti1=35;
+let produkti2=35;
+let produkti3=24;
+let porosia=produkti1 + produkti2 + produkti3;
+let shumaeZbritjes=porosia * 15/100;
+let cmimiPasZbritjes=porosia-shumaeZbritjes;
+let totali=cmimiPasZbritjes+4;
+console.log("Shuma fillestare e produkteve eshte :" + porosia);
+console.log("Shuma e Zbritjes eshte :" + shumaeZbritjes);
+console.log("Cmimi pas zbritjes eshte:" + cmimiPasZbritjes);
+console.log("Cmimi perfundimtar me transport eshte :" + toatli);
