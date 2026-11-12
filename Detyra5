@@ -1,0 +1,12 @@
+let eHene=95;
+let eMarte=80;
+let eMerkure=115;
+
+let minutatTotale=eHene + eMarte + eMerkure;
+let kohaNeOre=minutaTotale / 60;
+
+let mbetja=minutatTotale % 60;
+
+console.log("Minutat totale:" + minutatTotale);
+console.log("Koha e konvertuar ne ore:" + kohaNeOre);
+console.log("Mbetja totalale pas ndarjes:" + mbetja);
