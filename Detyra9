@@ -1,0 +1,21 @@
+let nrPjesmarsve=45;
+let pagesaPerPerson=12;
+
+let salla=180;
+let materialet=95;
+let reklama=60;
+
+let teArdhurat= nrPjesmarsve * pagesaPerPerson;
+let shpenzimeTotale=salla + materialet + reklama;
+let ndryshimi=teArdhurat - shpenzimeTotale;
+
+console.log("Te ardhurat fillestare jane:" + teArdhurat);
+console.log("Shpenzimet totale jane:" + shpenzimeTotale);
+
+
+let shpenzimePlus=25;
+shpenzimeTotale +=shpenzimePlus;
+let ndryshimiLlogaritur= teArdhurat - shpenzimeTotale;
+
+console.log("Diferenca fillestare eshte :" + ndryshimi);
+console.log("Diferenca Perfundimtare eshte :" + ndryshimiLlogaritur);
