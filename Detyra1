@@ -2,6 +2,6 @@
  const projekti=24;
  const provimi =43;
  let totali=aktiviteti + projekti + provimi;
- let perqindja=totali/100;
+ let perqindja=totali + "%";
  console.log(totali);
  console.log(perqindja);
