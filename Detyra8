@@ -1,0 +1,19 @@
+let cmimi1T="19.90";
+let cmimi2T="8.50";
+let sasia1=2;
+let sasia2=3;
+
+        let cmimi1=Number(cmimi1T);
+        let cmimi2=Number(cmimi2T);
+
+        let totaliP1=cmimi1 * sasia1;
+        let totaliP2=cmimi2 * sasia2;
+        
+        let shumaPorosis=totaliP1 + totaliP2;
+        let shumaTarif=shumaPorosis*1.10;
+
+        console.log("Totali i artikullit 1:"+ totaliP1);
+        console.log("Totali i artikullit 2:" + totaliP2);
+        console.log("Shuma totale e porosis:" + shumaPorosis);
+        console.log("Shuma totale me tarif te aplikuar:" + shumaTarif);
+        
