@@ -1,0 +1,16 @@
+let vlera1="25";
+let vlera2="17";
+let vlera3="8";
+
+let rezultati1= vlera1 + vlera2 + vlera3;
+
+let numri1=Number(vlera1);
+let numri2=Number(vlera2);
+let numri3=Number(vlera3);
+
+let rezultati2=numri1 + numri2 + numri3;
+let mesatarja = rezultati2/3;
+
+console.log("Rezultati pa konvertime:" + rezultati1);
+console.log("Rezultati me konvertime:" + rezultati2);
+console.log("Mesatarja perfundimtare:" + mesatarja);
