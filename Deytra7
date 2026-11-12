@@ -1,0 +1,9 @@
+let nrFletve=157;
+let fletPerStudent=6;
+let grupe=parseInt(nrFletve/fletPerStudent);
+let mbetje=nrFletve % fletPerStudent;
+let kontroll=(fletPerStudent * grupe) + mbetja;
+
+console.log("Numri i grupeve te plota:" + grupe);
+console.log("Numri i fleteve te mbetura:" + mbetje);
+console.log("Kontrolli final:" + kontroll);
